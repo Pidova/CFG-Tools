@@ -68,7 +68,7 @@ C Code below was compiled to X86 Assembly then generated with boost graphs.
 ```c
 int cond;
 for (int i = 0; i < 10; i++) {
-    if (condition_var == 5) {
+    if (cond == 5) {
         break;
     }
 }
